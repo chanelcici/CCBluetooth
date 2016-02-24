@@ -1,0 +1,10 @@
+#忽略DerivedData文件夹
+DerivedData/
+#忽略BluetoothConnect.xcodeproj/下除了project的文件
+BluetoothConnect.xcodeproj/*
+!BluetoothConnect.xcodeproj/project.pbxproj
+BluetoothConnectTests/
+BluetoothConnectUITests/
+Pods/
+.DS_Store
+*.xcworkspace

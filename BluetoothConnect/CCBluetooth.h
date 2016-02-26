@@ -7,8 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreBluetooth/CoreBluetooth.h>
 
-@interface CCBluetooth : NSObject<NSCopying>
-+ (CCBluetooth *)sharedInstance;
+@interface CCBluetooth : NSObject<NSCopying, CBCentralManagerDelegate>
+
++(CCBluetooth *)sharedInstance;
+-(void) startScan;
+-(void) stopScan;
 
 @end

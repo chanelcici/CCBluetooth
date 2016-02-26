@@ -70,12 +70,11 @@
 		323F908C1C7961E300223AA6 /* BluetoothConnect */ = {
 			isa = PBXGroup;
 			children = (
+				323F90D91C7DE62700223AA6 /* CCBluetooth */,
 				323F90901C7961E300223AA6 /* AppDelegate.h */,
 				323F90911C7961E300223AA6 /* AppDelegate.m */,
 				323F90931C7961E300223AA6 /* ViewController.h */,
 				323F90941C7961E300223AA6 /* ViewController.m */,
-				323F90D61C7DE03700223AA6 /* CCBluetooth.h */,
-				323F90D71C7DE03700223AA6 /* CCBluetooth.m */,
 				323F90961C7961E400223AA6 /* Main.storyboard */,
 				323F90991C7961E400223AA6 /* Assets.xcassets */,
 				323F909B1C7961E400223AA6 /* LaunchScreen.storyboard */,
@@ -119,6 +118,15 @@
 			);
 			name = Framework;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		323F90D91C7DE62700223AA6 /* CCBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				323F90D61C7DE03700223AA6 /* CCBluetooth.h */,
+				323F90D71C7DE03700223AA6 /* CCBluetooth.m */,
+			);
+			name = CCBluetooth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
